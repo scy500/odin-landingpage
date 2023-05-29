@@ -1,0 +1,161 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+}
+
+/* ## General reusable ## */
+
+.flex {
+  display: flex;
+}
+
+.gap {
+  gap: 5rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1600px;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+button {
+  padding: 1.2rem 3rem;
+  border: none;
+  border-radius: 9px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 700;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+}
+
+/* ## section-hero ## */
+.hero {
+  background-color: #1f2937;
+  padding-bottom: 10rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 0rem 6rem 0rem;
+}
+
+.hero-text,
+.header a {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+}
+
+.header-logo {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+.header-logo span {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.main-nav-list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.main-nav-link {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+/* ## section-features ## */
+
+.section-features {
+  padding: 5rem 0rem 10rem 0rem;
+}
+
+.section-features h2 {
+  text-align: center;
+  font-size: 3.6rem;
+  color: #1f2937;
+  margin-bottom: 4rem;
+}
+.section-features .flex {
+  justify-content: space-between;
+}
+.card-box {
+  width: 20rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.card-img {
+  width: 20rem;
+  height: 20rem;
+  border: 4px solid #3882f6;
+  border-radius: 9px;
+}
+
+/* ## section-quote ## */
+.section-quote {
+  background-color: #e5e7eb;
+  padding: 10rem;
+  font-size: 3.6rem;
+  color: #1f2937;
+  font-style: italic;
+}
+.quotee {
+  font-weight: 700;
+  text-align: end;
+}
+/* ## section-cta ## */
+
+.cta-box {
+  background-color: #3882f6;
+  width: auto;
+  margin: 10rem 0;
+  height: 20rem;
+  border-radius: 9px;
+  justify-content: space-around;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.cta-box button {
+  border: solid 3px #f9faf8;
+}
+.cta-heading {
+  font-size: 2.4rem;
+}
+.cta-text {
+  font-size: 1.8rem;
+}
+
+/* ## footer ## */
+
+footer {
+  background-color: #1f2937;
+  font-size: 2rem;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+}
